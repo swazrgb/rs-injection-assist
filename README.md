@@ -3,7 +3,7 @@ Import & Export annotations.
 
 # How do I get it?
 
-The plugin is not available on the plugin hub, and there is no binary release available.
+Submission to the plugin hub is in progress. Until then you can find releases at https://github.com/swazrgb/rs-injection-assist/releases/
 
 To build it yourself from source:
 
