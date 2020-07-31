@@ -310,7 +310,7 @@ public class InjectionAssistLineMarkerProvider extends RelatedItemLineMarkerProv
 
   @Override
   protected void collectNavigationMarkers(@NotNull PsiElement element,
-      @NotNull Collection<? super RelatedItemLineMarkerInfo> result) {
+      @NotNull Collection<? super RelatedItemLineMarkerInfo<?>> result) {
     PsiElement parent;
     // Check if we're matching an annotation name
     if (!(element instanceof PsiJavaToken) || !((parent = element
