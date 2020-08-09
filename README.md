@@ -3,7 +3,7 @@ Import & Export annotations.
 
 # How do I get it?
 
-Submission to the plugin hub is in progress. Until then you can find releases at https://github.com/swazrgb/rs-injection-assist/releases/
+This plugin can be found here: https://plugins.jetbrains.com/plugin/14808-rs-injection-assist
 
 To build it yourself from source:
 
