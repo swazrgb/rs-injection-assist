@@ -1,12 +1,19 @@
 <idea-plugin>
   <id>my.rs.injection-assist</id>
   <name>RS Injection Assist</name>
-  <vendor email="nosupport@example.org" url="https://github.com/swazrgb/rs-injection-assist">
-    SwazRGB
+  <vendor email="65694696+swazrgb@users.noreply.github.com" url="https://github.com/swazrgb/rs-injection-assist">
+	  SwazRGB
   </vendor>
 
   <description><![CDATA[
-    Assists with navigating RS Injection Annotations
+    This plugin assists with navigating a project annotated with the RuneLite Injection Annotations, such as:
+
+    * https://github.com/open-osrs/runelite/tree/master/runescape-client/src/main/java
+
+    * https://github.com/open-osrs/runelite/tree/master/runelite-mixins/src/main/java/net/runelite/mixins
+
+    Once installed this plugin will provide navigation hints between all Export and Import annotations, clicking one
+    will send you to the associated annotation, or show a list if there are multiple.
     ]]></description>
 
   <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
